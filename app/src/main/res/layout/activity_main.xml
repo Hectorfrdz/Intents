@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="40dp"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="intent_1"
+        android:id="@+id/facebook"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="intent_2"
+        android:id="@+id/google"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="intent_3"
+        android:id="@+id/inicio"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="intent_4"
+        android:id="@+id/youtube"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="intent_5"
+        android:id="@+id/camara"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/parametro"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:hint="Nombre"
+        />
+
+    <EditText
+        android:id="@+id/parametroEdad"
+        android:layout_width="148dp"
+        android:layout_height="40dp"
+        android:hint="Edad"
+        />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/enviarParametros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:id="@+id/phone"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Llamar"
+        android:id="@+id/llamada"
+        />
+
+</LinearLayout>
